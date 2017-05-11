@@ -7,7 +7,7 @@ import java.io.IOException;
 	public class InputCommodity {
 		public static void main (String[] args){
 			try{
-				File file = new File(args[0]+"\\commodity.lst");
+				File file = new File(args[0],"commodity.lst");
 				FileReader fr = new FileReader(file);
 				BufferedReader br = new BufferedReader (fr);
 				String s;
